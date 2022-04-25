@@ -1,0 +1,47 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  background-color: bisque;
+}
+
+.main {
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 2% auto;
+  padding: 2%;
+}
+
+.text-area {
+  display: block;
+  width: 46%;
+  height: 350px;
+  margin: 2%;
+}
+
+.title {
+  color: black;
+  font-size: 3vw;
+  background-color: goldenrod;
+  padding-left: 1%;
+  font-weight: bold;
+}
+
+#button-container {
+  display: flex;
+  gap: 4%;
+  width: 90%;
+  padding: 0 5%;
+  margin: 1% auto;
+  height: 20%;
+}
+
+button {
+  width: 10%;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 2vw;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #ffa07a;
+}
